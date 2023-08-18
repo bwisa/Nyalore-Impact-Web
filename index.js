@@ -20,8 +20,8 @@ app.get('/', function(req, res) {
 });
 
 // get the about us page
-app.get('/about', function(req, res){
-  res.render('about')
+app.get('/careers', function(req, res){
+  res.render('careers')
 })
 
 // get the servcies page
@@ -45,6 +45,10 @@ app.get('/partners', function(req, res){
 
 app.get('/csr', function(req, res){
   res.render('csr')
+})
+
+app.get('/impact', function(req, res){
+  res.render('impact')
 })
 
 // run the server
